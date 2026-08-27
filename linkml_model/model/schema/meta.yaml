@@ -1932,7 +1932,7 @@ slots:
     range: boolean
     inherited: true
     description: >-
-      True makes the slot the “type designator slot” for its class. A type designator slot is used to determine the runtime type
+      True makes the slot the "type designator slot" for its class. A type designator slot is used to determine the runtime type
       of an object.
 
       When the type designator slot is present in an object, its value MUST match either the name, the URI, or the CURIE
@@ -1967,7 +1967,7 @@ slots:
         base class) while ensuring that data conformant to the extended schema can still be considered valid against the original
         schema.
       - >-
-        In most cases, schema authors will want to make sure that the base class is configured to allow “extra slots”, so that
+        In most cases, schema authors will want to make sure that the base class is configured to allow "extra slots", so that
         any slot defined by an unknown subclass can be accepted without triggering an error.
     in_subset:
       - SpecificationSubset
